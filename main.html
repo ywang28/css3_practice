@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 and CSS3 feature test</title>
+	<link rel="stylesheet" href="main.css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<header>
+
+	</header>
+	<nav>
+		<ul class="nav">
+			<li><a href=#>Home</a></li><li><a href=#>Learn</a><li><a href=#>About</a></li>
+		</ul>
+	</nav>
+	<h1>HTML5 and CSS3 show time</h1>
+	<aside>
+		<h2>Restaurants</h2>
+		<ul class="restaurants">
+			<li>五月花</li>
+			<li>hot pot</li>
+			<li>Milpitas Buffet</li>
+			<li>三好拉面</li>
+		</ul>
+	</aside>
+	<article class="paragraph" title="paragraph">
+		<h2>Better learning by practice</h2>
+		<p>This paragraph is for testing the first line styling capability. There sure is a lot to learn about HTML5 and CSS3. Learning by practice will make the knowledge stick longer.</p>
+		<p>This paragraph is testing the mark tag <mark>as highlighted in yellow</mark></p>
+		<p>Test nth-child formatting</p>
+		<ul>
+			<li>First child</li>
+			<li>Second child</li>
+			<li>Third child</li>
+			<li>Fourth child</li>
+		</ul>
+	</article>
+	<h2>Learning HTML5 forms</h2>
+	<form class="contactForm" action="#">
+		<fieldset>
+			<legend>Contact Details</legend>
+			<label for="name">Name</label><input id="name" placeholder="ppmm" title="type your name" autofocus required><br>
+			<label for="phone">Phone</label><input id="phone" type=tel placeholder="xxx-xxx-xxxx" title="please use this format 000-000-0000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+			<label for="email">Email</label><input id="email" type=email><br>
+			<label for="weight">Weight</label><input type="number" name="weight" min=100 max=300 step=1 value=150 id="weight"><br>
+			<label for="volume">Volume</label><input type="range" name="volume" min=50 max=200 value=100 id="volume"><br>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+	<audio src=music/body.mp3 controls loop></audio>
+	<footer>
+		<p><small>My little fire test page</small></p>
+	</footer>
+</body>
+</html>
