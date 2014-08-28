@@ -115,13 +115,27 @@ ul.restaurants   {
 }
 
 .contactForm input[type="submit"]  {
+	letter-spacing: 0.2em;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	text-transform: uppercase;
+	color:  white;
+	font-size: 1em;
+	padding:  10px 20px 10px 20px;
 	margin-left:  100px;
+	border:  none;
+	background-image:  -webkit-linear-gradient(bottom, #2DD, #55f);
+	border-radius:  10px;
+	box-shadow:  5px 5px #479;
 }
 
 .contactForm label  {
 	display:  inline-block;
-	width:  100px;
+	width:  80px;
 	line-height:  1.5em;
+	vertical-align: top;
+	text-align: right;
+	margin-right:  15px;
+	font-weight: bold;
 }
 
 ul.nav  {
@@ -197,7 +211,6 @@ table.tasks  {
 	margin:  20px;
 	text-align: left;
 	vertical-align: baseline;
-	border-spacing:  0;
 	border-collapse:  collapse;
 	border: 2px solid #000;
 }
