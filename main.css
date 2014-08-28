@@ -30,7 +30,7 @@ footer  {
 }
 
 aside  {
-	width:  30%;
+	width:  300px;
 	float:  right;
 	border-top:  20px solid #555;
 	border-radius:  10px;
@@ -80,6 +80,12 @@ aside h2  {
 
 .paragraph ul  {
 	margin-left:  30px;
+	line-height:  2em;
+}
+
+ul.restaurants   {
+	margin-left:  30px;
+	line-height:  1.3em;
 }
 
 .restaurants li  {
@@ -88,6 +94,7 @@ aside h2  {
 	background:  url(images/logo.png);
 	background-repeat:  no-repeat;
 	background-size:  20px auto;
+	background-position: 0px 5px;
 }
 
 .paragraph ul :nth-child(odd)  {
@@ -184,4 +191,37 @@ ul.nav  {
 
 audio  {
 	margin-left:  20px;
+}
+
+table.tasks  {
+	margin:  20px;
+	text-align: left;
+	vertical-align: baseline;
+	border-spacing:  0;
+	border-collapse:  collapse;
+	border: 2px solid #000;
+}
+
+.tasks th, td  {
+	padding:  5px 10px 5px 10px;
+	border: 1px solid #999;
+}
+
+.tasks th  {
+	background-color: #55f;
+	color:  #fff;
+	border-bottom: 2px solid #000;
+	text-align:  center;
+}
+
+.tasks caption  {
+	margin-top:  10px;
+}
+
+.tasks tr:nth-of-type(odd)  {
+	background-color: #eff;
+}
+
+.tasks tr:nth-of-type(even)  {
+	background-color: #ffd;
 }
