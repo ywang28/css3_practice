@@ -125,7 +125,7 @@ ul.restaurants   {
 	border:  none;
 	background-image:  -webkit-linear-gradient(bottom, #2DD, #55f);
 	border-radius:  10px;
-	box-shadow:  5px 5px #479;
+	box-shadow:  4px 4px #479;
 }
 
 .contactForm label  {
