@@ -238,3 +238,8 @@ table.tasks  {
 .tasks tr:nth-of-type(even)  {
 	background-color: #ffd;
 }
+
+canvas  {
+	border: 2px solid #999;
+	margin-left:  20px;
+}
