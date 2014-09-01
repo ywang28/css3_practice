@@ -18,7 +18,7 @@ body  {
 header  {
 	height:  100px;
 	width:  100%;
-	background:  url(images/logo2.png);
+	background:  url(../images/logo2.png);
 }
 
 footer  {
@@ -91,7 +91,7 @@ ul.restaurants   {
 .restaurants li  {
 	list-style:  none;
 	padding-left:  30px;
-	background:  url(images/logo.png);
+	background:  url(../images/logo.png);
 	background-repeat:  no-repeat;
 	background-size:  20px auto;
 	background-position: 0px 5px;
@@ -193,7 +193,8 @@ ul.nav  {
 .nav a:hover  {
 	background-color:  #22f;
 	color:  white;
-	transform:  scale(1.2) rotate(10deg);
+/*	transform:  scale(1.2) rotate(10deg);*/
+	transform:  scale(1.2);
 	transform-origin:  center center;
 	/* -webkit-animation:  navbar .5s; */
 }

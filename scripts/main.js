@@ -1,4 +1,4 @@
-onload = function() {
+$(function() {
 	var canvas = document.getElementById('drawing');
 	var context = canvas.getContext('2d');
 	
@@ -76,5 +76,7 @@ onload = function() {
     context.fillStyle = "white";
     context.fillText("This shadow isn't offset. It creates a halo effect.", 10,
 300);
+	// jQuery fade in
+	$('body').hide().fadeIn(3000);
+});
 
-};
