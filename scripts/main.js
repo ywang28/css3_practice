@@ -5,12 +5,12 @@ $(function() {
 	context.lineWidth = 10;
 	context.strokeStyle = "#55f";
 	
-	context.moveTo(10,10);
-	context.lineTo(200,10);
+	context.moveTo(20,20);
+	context.lineTo(200,20);
 	context.stroke();
 	
 	context.beginPath();
-	context.moveTo(10,50);
+	context.moveTo(20,50);
 	context.lineTo(200,50);
 	context.lineCap = "round";
 	context.stroke();
@@ -39,16 +39,21 @@ $(function() {
 		// pattern fill
 		var pattern = context.createPattern(img, "repeat");
 		context.fillStyle = pattern;
-		context.rect(350, 350, 150, 150);
+		context.rect(500, 20, 150, 150);
 		context.fill();
 	}
-	img.src = "images/logo.png";
+	img.src = "images/logo2.png";
 	
 	// draw text
 	context.fillStyle = "black";
 	context.font = "20px Arial";
 	context.textBaseline = "top";
-	context.fillText("I'm half chopped little fire", 250, 80);
+	context.fillText("I'm half chopped image", 250, 80);
+	
+	context.fillStyle = "black";
+	context.font = "20px Arial";
+	context.textBaseline = "top";
+	context.fillText("I'm a square filled with image", 500, 180);
 	
 	context.lineWidth = "1";
 	context.font = "30px Verdana sans-serif";
@@ -61,22 +66,22 @@ $(function() {
 	context.shadowOffsetX = 2;
 	context.shadowOffsetY = 2;
 	context.fillStyle = "steelblue";
-	context.fillText("This is a subtle, slightly old-fashioned shadow.", 10, 175);
+	context.fillText("This is a subtle, slightly old-fashioned shadow.", 20, 220);
 	
 	context.shadowBlur = 5;
     context.shadowOffsetX = 20;
     context.shadowOffsetY = 20;
     context.fillStyle = "green";
-    context.fillText("This is a distant shadow...", 10, 225);
+    context.fillText("This is a distant shadow...", 20, 255);
 	
     context.shadowBlur = 15;
     context.shadowOffsetX = 0;
     context.shadowOffsetY = 0;
 	context.shadowColor = "black";
     context.fillStyle = "white";
-    context.fillText("This shadow isn't offset. It creates a halo effect.", 10,
-300);
+    context.fillText("This shadow isn't offset. It creates a halo effect.", 20,
+330);
 	// jQuery fade in
-	$('body').hide().fadeIn(3000);
+	// $('body').hide().fadeIn(3000);
 });
 

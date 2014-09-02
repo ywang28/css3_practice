@@ -3,17 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML5 and CSS3 feature test</title>
+	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
 	<script src="scripts/main.js"></script>
 </head>
 <body>
 	<header>
-
+		<p>I hope I have a fancy img here</p>
 	</header>
 	<nav>
 		<ul class="nav">
-			<li><a href=#>Home</a></li><li><a href=#>Learn</a><li><a href=#>About</a></li>
+			<li><a href=main.html>Home</a></li><li><a href=learn.html>Learn</a></li><li><a href=relocation.html>Relocation</a></li><li><a href=#>About</a></li>
 		</ul>
 	</nav>
 	<h1>HTML5 and CSS3 show time</h1>
@@ -21,16 +22,22 @@
 		<h2>Restaurants</h2>
 		<ul class="restaurants">
 			<li>五月花</li>
-			<li>Hotpot Ice Tea</li>
-			<li>Milpitas Buffet</li>
 			<li>三好拉面</li>
 			<li>韶山冲</li>
 			<li>岳阳楼</li>
 			<li>五饼二鱼</li>
+			<li>山城私房菜</li>
+			<li>上海家常菜</li>
+			<li>京味轩</li>
+			<li>奇峰閣</li>
+			<li>清真一条龙</li>
+			<li>金玉满堂</li>
+			<li>小锦江</li>
+			<li>小肥羊</li>
 		</ul>
 	</aside>
 	<h2>Canvas</h2>
-	<canvas id="drawing" width=600px height=600px>
+	<canvas id="drawing" width=800px height=400px>
 	</canvas>
 	<h2>Table formatting</h2>
 	<table class="tasks">
@@ -84,7 +91,7 @@
 	<form class="contactForm" action="#">
 		<fieldset>
 			<legend>Contact Details</legend>
-			<label for="name">Name</label><input id="name" placeholder="ppmm" title="type your name" autofocus required><br>
+			<label for="name">Name</label><input id="name" placeholder="ppmm" title="type your name" required><br>
 			<label for="phone">Phone</label><input id="phone" type=tel placeholder="xxx-xxx-xxxx" title="please use this format 000-000-0000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
 			<label for="email">Email</label><input id="email" type=email><br>
 			<label for="weight">Weight</label><input type="number" name="weight" min=100 max=300 step=1 value=150 id="weight"><br>
