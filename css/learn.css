@@ -10,3 +10,11 @@
 .books li  {
 	list-style-type: none;
 }
+
+aside.topic  {
+	float:  left;
+}
+
+.main  {
+	margin-left:  320px;
+}

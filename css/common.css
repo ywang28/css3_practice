@@ -100,3 +100,7 @@ ul.nav  {
 	color:  #dda;
 	background-color:  #288;
 }
+
+.float_left  {
+	float:  left;
+}
