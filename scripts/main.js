@@ -74,13 +74,14 @@ $(function() {
     context.fillStyle = "green";
     context.fillText("This is a distant shadow...", 20, 255);
 	
+	context.font = "40px Arial"
     context.shadowBlur = 15;
     context.shadowOffsetX = 0;
     context.shadowOffsetY = 0;
 	context.shadowColor = "black";
     context.fillStyle = "white";
-    context.fillText("This shadow isn't offset. It creates a halo effect.", 20,
-330);
+    context.fillText("Text with halo effect", 20,
+320);
 
     // hide contents first
 	$('.content').hide();
