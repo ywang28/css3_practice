@@ -36,69 +36,77 @@
 			<li>小肥羊</li>
 		</ul>
 	</aside>
-	<h2>Canvas</h2>
-	<canvas id="drawing" width=800px height=400px>
-	</canvas>
-	<h2>Table formatting</h2>
-	<table class="tasks">
-		<caption align="bottom">
-			Table 1 Table for formatting test
-		</caption>
-		<thead>
-			<tr>
-				<th>Date</th>
-				<th>Task</th>
-				<th>Comment</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>Aug 26</td>
-				<td>Javascript good parts</td>
-				<td>P25</td>
-			</tr>
-			<tr>
-				<td>Aug 27</td>
-				<td>CSS3 tables</td>
-				<td>Adding html table</td>
-			</tr>
-			<tr>
-				<td>Aug 27</td>
-				<td>Textmate</td>
-				<td>Learning some shortcuts</td>
-			</tr>
-			<tr>
-				<td>Aug 27</td>
-				<td>HTML5</td>
-				<td>Audio loop</td>
-			</tr>
-		</tbody>
-	</table>
-	<audio src=music/body.mp3 controls loop></audio>
+	<h2 class="subject">Canvas</h2>
+	<div class="content">
+		<canvas id="drawing" width=800px height=400px>
+		</canvas>	
+	</div>
+	<h2 class="subject">Table formatting</h2>
+	<div class="content">
+		<table class="tasks">
+			<caption align="bottom">
+				Table 1 Table for formatting test
+			</caption>
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Task</th>
+					<th>Comment</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Aug 26</td>
+					<td>Javascript good parts</td>
+					<td>P25</td>
+				</tr>
+				<tr>
+					<td>Aug 27</td>
+					<td>CSS3 tables</td>
+					<td>Adding html table</td>
+				</tr>
+				<tr>
+					<td>Aug 27</td>
+					<td>Textmate</td>
+					<td>Learning some shortcuts</td>
+				</tr>
+				<tr>
+					<td>Aug 27</td>
+					<td>HTML5</td>
+					<td>Audio loop</td>
+				</tr>
+			</tbody>
+		</table>
+		<audio src=music/body.mp3 controls loop></audio>
+	</div>
 	<article class="paragraph" title="paragraph">
-		<h2>Better learning by practice</h2>
-		<p>This paragraph is for testing the first line styling capability. There sure is a lot to learn about HTML5 and CSS3. Learning by practice will make the knowledge stick longer.</p>
-		<p>This paragraph is testing the mark tag <mark>as highlighted in yellow</mark></p>
-		<p>Test nth-child formatting</p>
-		<ul>
-			<li>First child</li>
-			<li>Second child</li>
-			<li>Third child</li>
-			<li>Fourth child</li>
-		</ul>
+		<h2 class="subject">Better learning by practice</h2>
+		<div class="content">
+			<p>This paragraph is for testing the first line styling capability. There sure is a lot to learn about HTML5 and CSS3. Learning by practice will make the knowledge stick longer.</p>
+			<p>This paragraph is testing the mark tag <mark>as highlighted in yellow</mark></p>
+			<p>Test nth-child formatting</p>
+			<ul>
+				<li>First child</li>
+				<li>Second child</li>
+				<li>Third child</li>
+				<li>Fourth child</li>
+			</ul>
+		</div>
 	</article>
-	<h2>Learning HTML5 forms</h2>
-	<form class="contactForm" action="#">
-		<fieldset>
-			<legend>Contact Details</legend>
-			<label for="name">Name</label><input id="name" placeholder="ppmm" title="type your name" required><br>
-			<label for="phone">Phone</label><input id="phone" type=tel placeholder="xxx-xxx-xxxx" title="please use this format 000-000-0000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
-			<label for="email">Email</label><input id="email" type=email><br>
-			<label for="weight">Weight</label><input type="number" name="weight" min=100 max=300 step=1 value=150 id="weight"><br>
-			<label for="volume">Volume</label><input type="range" name="volume" min=50 max=200 value=100 id="volume"><br>
-			<input type="submit" value="Submit">
-		</fieldset>
-	</form>
+	<h2 class="subject">Learning HTML5 forms</h2>
+	<div class="content">
+		<form class="contactForm" action="#">
+			<fieldset>
+				<legend>Contact Details</legend>
+				<label for="name">Name</label><input id="name" placeholder="ppmm" title="type your name" required><br>
+				<label for="phone">Phone</label><input id="phone" type=tel placeholder="xxx-xxx-xxxx" title="please use this format 000-000-0000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+				<label for="email">Email</label><input id="email" type=email><br>
+				<label for="weight">Weight</label><input type="number" name="weight" min=100 max=300 step=1 value=150 id="weight"><br>
+				<label for="volume">Volume</label><input type="range" name="volume" min=50 max=200 value=100 id="volume"><br>
+				<input type="submit" value="Submit">
+			</fieldset>
+		</form>
+	</div>
 	<footer>
 		<p><small>My little fire test page</small></p>
 	</footer>

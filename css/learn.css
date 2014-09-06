@@ -11,10 +11,10 @@
 	list-style-type: none;
 }
 
-aside.topic  {
-	float:  left;
-}
-
 .main  {
 	margin-left:  320px;
+}
+
+.topic  {
+	background-color:  #eea;
 }

@@ -81,7 +81,19 @@ $(function() {
     context.fillStyle = "white";
     context.fillText("This shadow isn't offset. It creates a halo effect.", 20,
 330);
-	// jQuery fade in
-	// $('body').hide().fadeIn(3000);
+
+    // hide contents first
+	$('.content').hide();
+	// jQuery toggle
+	$('.subject').toggle(
+		function()  {
+			$(this).next('.content').fadeIn();
+			$(this).addClass('minus');
+		},
+		function()  {
+			$(this).next('.content').fadeOut();
+			$(this).removeClass('minus');
+		}
+	);
 });
 

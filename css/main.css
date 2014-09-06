@@ -146,3 +146,18 @@ canvas  {
 	border: 2px solid #999;
 	margin:  20px;
 }
+
+.subject  {
+	background:  url(../images/plus.png) no-repeat;
+	padding-left:  50px;
+	padding-top:  10px;
+}
+
+.subject:hover  {
+	cursor: pointer;
+	color:  blue;
+}
+
+.minus  {
+	background:  url(../images/minus.png) no-repeat;
+}
