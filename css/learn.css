@@ -16,5 +16,19 @@
 }
 
 .topic  {
+	position:  fixed;
+	top:  200px;
+	bottom:  200px;
+	width:  300px;
 	background-color:  #eea;
+}
+
+body  {
+	height:  900px;
+}
+
+footer  {
+	position:  fixed;
+	bottom:  0;
+	width:  100%;
 }
