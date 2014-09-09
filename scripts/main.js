@@ -96,5 +96,20 @@ $(function() {
 			$(this).removeClass('minus');
 		}
 	);
+	
+	// get gallery element
+	var gal = $('.gallery img');
+	
+	$('.photos img').each(
+		function()  {
+			var image = $(this).attr('src');
+			var newImage = image.replace('.png','_large.png');
+			$(this).mouseover(
+				function()  {
+					gal.attr('src',newImage);
+				}
+			);
+		}
+	);
 });
 

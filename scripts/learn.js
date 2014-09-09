@@ -1,20 +1,20 @@
 $(function()  {
 	$('.topic').hover(
 		function()  {
-			$(this).animate(
+			$(this).stop().animate(
 				{
 					left:  0,
-					backgroundColor:  '#ffd'
+					backgroundColor:  '#5af'
 				},
 				500,
 				'easeInSine'
 			);
 		},
 		function()  {
-			$(this).animate(
+			$(this).stop().animate(
 				{
 					left:  -280,
-					backgroundColor:  '#5af'
+					backgroundColor:  '#ffd'
 				},
 				1500,
 				'easeOutBounce'

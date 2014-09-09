@@ -161,3 +161,18 @@ canvas  {
 .minus  {
 	background:  url(../images/minus.png) no-repeat;
 }
+
+.gallery  {
+	border:  1px solid blue;
+	padding:  10px;
+	margin:  0px 650px 10px 200px;
+}
+
+.photos  {
+	margin-left:  250px;
+}
+
+.photos img  {
+	margin:  0px;
+	border:  1px solid black;
+}
