@@ -98,15 +98,23 @@ $(function() {
 	);
 	
 	// get gallery element
-	var gal = $('.gallery img');
+	var gal = $('.gallery');
 	
 	$('.photos img').each(
 		function()  {
-			var image = $(this).attr('src');
-			var newImage = image.replace('.png','_large.png');
 			$(this).mouseover(
 				function()  {
-					gal.attr('src',newImage);
+					var image = $(this).attr('src');
+					var image_large = image.replace('.png','_large.png');
+					var oldImg = $('.gallery img');
+					var newImg = $('<img src="' + image_large + '">');
+					newImg.hide();
+					//gal.attr('src',newImage);
+					gal.prepend(newImg);
+					newImg.fadeIn(1000);
+					oldImg.fadeOut(1000, function() {
+						$(this).remove();
+					});
 				}
 			);
 		}

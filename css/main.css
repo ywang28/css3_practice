@@ -166,6 +166,12 @@ canvas  {
 	border:  1px solid blue;
 	padding:  10px;
 	margin:  0px 650px 10px 200px;
+	position:  relative;
+	height:  370px;
+}
+
+.gallery img  {
+	position:  absolute;
 }
 
 .photos  {
