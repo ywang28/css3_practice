@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>HTML5 and CSS3 feature test</title>
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="scripts/jquery.1.6.3_min.js"></script>
+	<script src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<script src="scripts/main.js"></script>
 </head>
 <body>
@@ -113,7 +115,7 @@
 			<img src='images/logo_large.png'>
 		</div>
 		<div class='photos'>
-			<img src='images/logo.png'><img src='images/logo2.png'>
+			<a rel='group' href='images/logo_large.png'><img src='images/logo.png' alt='' title='click me to check out fancy box!'></a><a rel='group' href='images/logo2_large.png'><img src='images/logo2.png' alt='' title='click me to check out fancy box!'></a>
 		</div>
 	</div>
 	<footer>

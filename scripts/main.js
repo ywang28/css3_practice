@@ -119,5 +119,8 @@ $(function() {
 			);
 		}
 	);
+	
+	// fancy box
+	$('.photos a').fancybox();
 });
 
